@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Konversi Mata Uang</title>
+        <script>
+            function convert(){
+                var theform = document.forms['converter'];
+                var thenumber = theform.elements['thenumber'].value;
+                
+                var kurs = document.getElementById("kurs");
+                var kursvalue = kurs.options[kurs.selectedIndex].value;
+                var kurstext = kurs.options[kurs.selectedIndex].text;
+
+                var hasil = thenumber*kursvalue;
+                
+                document.getElementById("result").innerHTML = hasil + " " + "Rupiah";
+
+            }
+        </script>
+    </head>
+    <body>        
+        <form id="converter" onchange="convert()" onsubmit="return false;"> 
+            <fieldset>
+                <legend>Konversi Mata Uang</legend>
+                <table border="1" cellpadding="10">
+                    <tr>
+                        <td>Masukan Nilai</td>
+                        <td>Kurs</td>
+                        <td>Nilai Rupiah</td>
+                    </tr>
+                    <tr>
+                        <td><input id="thenumber" type="text" value="" /><br /></td>
+                        <td><select name="" id="kurs">                           
+                            <option value="15.888">Euro</option><option value="13.472">Singapore Dollar</option>
+                            <option value="120">Japanese Yen</option><option value="874">Malaysian Ringgit</option>
+                            <option value="3.592">Saudia Real</option><option value="9.915">USD</option></select>
+                        </td>
+                        <td><div id="result"></div></td>
+                    </tr>
+                </table>                            
+            </fieldset>        
+        </form>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--MADEbySHIDQIAHMADFARID-->
